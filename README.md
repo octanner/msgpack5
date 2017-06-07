@@ -1,6 +1,8 @@
 msgpack5&nbsp;&nbsp;[![Build Status](https://travis-ci.org/mcollina/msgpack5.png)](https://travis-ci.org/mcollina/msgpack5)
 ========
 
+# This is a forked version to enable compatibility with java msg pack 6 which encodes fix strings as byte arrays without applying encoding, this causes the highbit to be lost on msgpack5 on node due to the use of utf8 encodings
+
 A msgpack v5 implementation for node.js and the browser, with extension point support.
 
 Install
