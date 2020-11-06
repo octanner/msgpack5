@@ -22,7 +22,6 @@
     "extension",
     "v5",
     "msgpack",
-    "v5",
     "ext"
   ],
   "author": "Matteo collina <hello@matteocollina.com>",
@@ -32,7 +31,7 @@
   },
   "homepage": "https://github.com/mcollina/msgpack5",
   "devDependencies": {
-    "browserify": "^10.2.4",
+    "browserify": "^12.0.0",
     "faucet": "0.0.1",
     "jshint": "^2.5.2",
     "level-test": "^2.0.0",
@@ -61,7 +60,7 @@
     ]
   },
   "dependencies": {
-    "bl": "^1.0.0",
+    "bl": "^2.2.1",
     "inherits": "^2.0.1",
     "readable-stream": "^2.0.1"
   }
